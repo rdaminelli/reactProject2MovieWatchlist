@@ -14,7 +14,7 @@ export default function MovieCard ({ movie, list, addMovie, removeMovie }) {
     );
     
     return (
-        <div classname="movie-card">
+        <div className="movie-card">
             <div>
                 <img src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}/>
                 <h3>{movie.original_title}</h3>
@@ -23,3 +23,4 @@ export default function MovieCard ({ movie, list, addMovie, removeMovie }) {
         </div>
     );
 };
+

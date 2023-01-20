@@ -46,8 +46,7 @@ function App() {
           removeMovie={removeMovie}
         />
         <Watchlist list={list} removeMovie={removeMovie}/>
-      </main>
-      
+      </main>      
     </div>
   );
 }

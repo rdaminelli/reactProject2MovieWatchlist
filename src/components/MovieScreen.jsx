@@ -23,3 +23,4 @@ export default function MovieScreen ({ list, page, setPage, movieList, addMovie,
         </div>
     );
 };
+
